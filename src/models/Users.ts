@@ -1,5 +1,7 @@
 import  { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 
+// KISS - Keep It Simple & Stupid
+
 @Entity('users')
 class User {
   @PrimaryGeneratedColumn('uuid')
